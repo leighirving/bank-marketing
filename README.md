@@ -1,5 +1,5 @@
 # bank-marketing
-This project predicts if bank clients will subscribe a term deposit due to direct marketing campaigns. There are 41,188 observations and 20 inputs.
+This project predicts if bank clients will subscribe a term deposit due to direct marketing campaigns. There are **41,188** observations and **20** inputs.
 
 ### Input variables:
 **bank client data:**
@@ -26,7 +26,7 @@ This project predicts if bank clients will subscribe a term deposit due to direc
 
 10 - day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
 
-11 - duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
+11 - duration: last contact duration, in seconds (numeric). 
 
 **other attributes:**
 
